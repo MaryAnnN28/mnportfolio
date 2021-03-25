@@ -1,11 +1,14 @@
 import './Home.css';
 import nightsky from './images/nightsky.jpeg';
+import NavBar from './NavBar'
 // import { Card } from 'bootstrap'; 
 
 function Home() {
   return (
     <>
     <div className="Home">
+        
+        <NavBar />
       
         <div className="bg">
       <img className="bg" src={nightsky} alt="bg" />
