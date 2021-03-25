@@ -6,7 +6,13 @@ export default function NavBar() {
     <>
 
       <div className="navbar">
-        Hello
+        <div className="navbar-links">
+          <a href="">HOME</a>
+          <a href="">ABOUT</a>
+          <a href="">WORK</a>
+          <a href="">BLOG</a>
+          <a href="">CONTACT</a>
+        </div>
       </div>
     </>
   )

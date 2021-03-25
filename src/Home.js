@@ -10,24 +10,13 @@ function Home() {
         
         <NavBar />
       
-        <div className="bg">
-      <img className="bg" src={nightsky} alt="bg" />
-          
-    </div>
+      <div className="bg">
+        <img className="bg" src={nightsky} alt="bg" />  
+      </div>
       
       <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css' />
           <h1>
-            <em>C</em>
-            <em>O</em>
-            <em>M</em>
-            <em>I</em>
-            <em>N</em>
-            <em>G</em> 
-            <em></em>
-            <em>S</em>
-            <em>O</em>
-            <em>O</em>
-            <em>N</em>
+            <em>COMING SOON</em>
           </h1>
       <p>Mary Ann Navarrete</p>
       
