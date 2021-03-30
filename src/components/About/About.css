@@ -1,4 +1,5 @@
 .about-container {
+  content: ""; 
   display: table; 
   clear: both; 
   width: 100%; 
@@ -19,4 +20,29 @@
   padding: 10px; 
   height: 300px;
   justify-content: center;
+  align-content: center;
+}
+
+.about-content {
+  padding-left: 150px; 
+  width: 650px; 
+}
+
+h1.about-header {
+  color: rgb(233, 101, 121); 
+}
+
+p.about-text {
+  color: rgb(206, 210, 216); 
+  padding-top: 30px; 
+  letter-spacing: 1px;
+  font-size: 12pt; 
+  font-weight: lighter; 
+  width: 580px; 
+}
+
+img.pic {
+  margin-left: 130px; 
+  margin-top: 10px;
+  border-radius: 50%;
 }

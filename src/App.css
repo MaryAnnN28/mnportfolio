@@ -8,9 +8,10 @@
 }
 
 body {
-  height: 3200px; 
-  height: max-content;
+  height: 300px; 
+  height: max-content; 
   background: rgb(14,16,59);
-  background: linear-gradient(163deg, rgba(14,16,59,1) 0%, rgba(45,47,85,1) 19%, rgba(58,74,110,1) 38%, rgba(75,102,133,1) 55%, rgba(98,155,171,1) 81%, rgba(165,223,235,1) 100%);
+  /* background: linear-gradient(163deg, rgba(14,16,59,1) 0%, rgba(45,47,85,1) 19%, rgba(58,74,110,1) 38%, rgba(75,102,133,1) 55%, rgba(98,155,171,1) 81%, rgba(165,223,235,1) 100%); */
+  background: linear-gradient(155deg, #041024 7%, #192541 22%, #2e374d 40%, #5f677e 62%, #949db3 78%, #b2cad4 100%);
 }
 

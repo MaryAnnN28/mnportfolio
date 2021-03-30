@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './NavBar.css'; 
-import Logo from '../../images/mn-logo.png';
+import Logo from '../../images/MN1.png';
 import { IconContext } from 'react-icons';
 import { FaLinkedinIn, FaGithub, FaMediumM, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 class NavBar extends Component {
   render() {
     return (
-      <IconContext.Provider value={{color: '#768eb3'}}>
+      <IconContext.Provider value={{color: 'rgb(212, 91, 109)'}}>
 
       <div className="navbar">
         <div className="navbar-left">
@@ -26,7 +26,6 @@ class NavBar extends Component {
             <FaLinkedinIn size={25}/> &nbsp; &nbsp; 
             <FaGithub size={25} /> &nbsp; &nbsp; 
             <FaMediumM size={25} /> &nbsp; &nbsp;
-            <FaInstagram size={25} /> &nbsp; &nbsp; 
             <FaTwitter size={25} />
 
         </div>
