@@ -36,13 +36,14 @@ p.about-text {
   color: rgb(206, 210, 216); 
   padding-top: 30px; 
   letter-spacing: 1px;
-  font-size: 12pt; 
+  line-height: 1.8em;
+  font-size: 11pt; 
   font-weight: lighter; 
-  width: 580px; 
+  width: 550px; 
 }
 
 img.pic {
-  margin-left: 130px; 
-  margin-top: 10px;
+  margin-left: 100px; 
+  margin-top: 40px;
   border-radius: 50%;
 }

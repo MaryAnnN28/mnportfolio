@@ -9,7 +9,7 @@ const About = () => {
     <div
       style={{
         display: 'flex',
-        height: '100vh'
+        height: '120vh'
       }}
     >
       <div className="about-container">

@@ -1,18 +1,37 @@
-/* .row {
-  content: ""; 
-  clear: both; 
-  display: table; 
-  width: 100%; 
+.content-wrapper {
   height: 600px; 
   justify-content: center; 
   display: flex;
+  margin: 0 auto; 
+  max-width: 1200px;
+  flex-flow: row wrap; 
+  padding: 10rem; 
 
 }
 
 .column {
   float:left ; 
-  width: 50%; 
-  padding: 5px; 
-} */
+  width: 33%; 
+  padding: 1rem; 
+}
 
+.project-card {
+  border-radius: 0.5rem;
+  overflow: hidden; 
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+  position: relative; 
+  flex: 1; 
+  min-width: 290px;
+}
 
+img.project-image {
+  width: 100%; 
+  height: 100%; 
+  display: block;
+  object-fit: cover;
+  transition: transform 3s ease;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: relative;
+  z-index: -1;
+}
