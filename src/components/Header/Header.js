@@ -21,7 +21,7 @@ const Header = () => {
               Building Enhanced
               Digital Experiences
             </h1>
-            <h3 className="header-firstname-h3"> Meet MaryAnn </h3>
+            <h3 className="header-firstname-h3"> Meet MaryAnn</h3>
             {/* <h4 className="header-title-h4"> software engineer</h4>
             <h4 className="header-title2-h4"> web designer</h4> */}
        
