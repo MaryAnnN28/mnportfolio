@@ -15,14 +15,20 @@ function App() {
   return (
     <>
     <div className="Home">
-    
-      <NavBar />
-        
-        <Header />
-        <About />
-        <Projects />
-        <Contact />
+        <Router>
+          
+          <NavBar />
+
+          <Switch>
+            <Route exact path="/" component={App} />
+          </Switch>
+            
+            <Header />
+            <About />
+            <Projects />
+            <Contact />
   
+      </Router>
   
       
       </div>

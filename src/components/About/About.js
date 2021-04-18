@@ -1,8 +1,7 @@
 import React from 'react'
 import './About.css';
 import Pic from '../../images/headshot1.jpg'
-import Pic2 from '../../images/headshot2.jpg'
-import Pic3 from '../../images/headshot3.png'
+
 
 const About = () => {
   return (
@@ -33,7 +32,7 @@ const About = () => {
         </div>
 
         <div className="about-container-right">
-          <img className="pic" src={Pic} height="400px"/>
+          <img className="pic" src={Pic} height="400px" alt="headshot"/>
           
         </div>
 
