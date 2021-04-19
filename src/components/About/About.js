@@ -8,7 +8,7 @@ const About = () => {
     <div
       style={{
         display: 'flex',
-        height: '120vh'
+        height: '100vh'
       }}
     >
       <div className="about-container">

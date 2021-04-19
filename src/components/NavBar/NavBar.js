@@ -25,12 +25,18 @@ class NavBar extends Component {
         </div>
 
           <div className="navbar-right">
-            <FaLinkedinIn size={25}/> &nbsp; &nbsp; 
-            <FaGithub size={25} /> &nbsp; &nbsp; 
-            <Link to='https://github.com/MaryAnnN28'>
-              <FaMediumM size={25} /> &nbsp; &nbsp;
-            </Link>
-            <FaTwitter size={25} />
+            <a href="https://www.linkedin.com/in/maryannnavarrete/">
+              <FaLinkedinIn size={25} />
+            </a>
+            <a href="https://github.com/MaryAnnN28">
+              <FaGithub size={25} /> 
+            </a>
+            <a href="https://maryann-navarrete.medium.com/">
+              <FaMediumM size={25} /> 
+            </a>
+            <a href="https://twitter.com/MaryAnnN28">
+              <FaTwitter size={25} />
+            </a>
 
         </div>
 

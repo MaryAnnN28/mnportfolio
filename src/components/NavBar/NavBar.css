@@ -43,6 +43,13 @@
   font-size: 11pt;
 }
 
+.navbar-right a {
+  text-decoration: none;
+  padding: 0.7rem; 
+  color: #f7f7f7;
+  font-size: 11pt;
+}
+
 .navbar a:hover {
   color: #768eb1;
 }

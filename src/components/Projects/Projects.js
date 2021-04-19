@@ -15,46 +15,55 @@ const Projects = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        height: '300vh'
+        height: '350vh'
       }}
     >
    
       
-      <div className="project-row">
+      <div className="project-container">
         
-        <div className="column">
+        <div className="project-row">
           <div className="project-card">
-            <img clasName="project-image" src={NavCRM} alt="NavCRM Dashboard" width="450px" height="300px" />
+            <img className="project-image" src={NavCRM} alt="NavCRM Dashboard" />
+          </div>
+          <div className="project-details">
+            <h3 className="project-title">NavCRM</h3>
+            <div className="description-container">
+              <p className="project-description">Data visualization CRM dashboard that helps users organize customers and tasks, while providing an insightful look at customer data.</p>
+              <p className="project-tech">
+                React Rails Chart.js OAuth2 Chakra-UI 
+              </p>
+            </div>
           </div>
         </div>
 
-        <div className="column">
+        <div className="project-row">
           <div className="project-card">
-            <img src={PlanetWarrior} alt="Planet Warrior App" width="450px" height="300px" />
+            <img className="project-image" src={PlanetWarrior} alt="Planet Warrior App" />
           </div>
         </div>
 
-        <div className="column">
+        <div className="project-row">
           <div className="project-card">
-            <img src={BiteBoard} alt="Bite Board Recipe Site" width="450px" height="300px" />
+            <img className="project-image" src={BiteBoard} alt="Bite Board Recipe Site"/>
           </div>
         </div>
 
-        <div className="column">
+        <div className="project-row">
          <div className="project-card">
-          <img src={GolfLive} alt="Golf Live" width="450px" height="300px"/>
+          <img className="project-image" src={GolfLive} alt="Golf Live"/>
          </div>
         </div>
 
-        <div className="column">
+        <div className="project-row">
           <div className="project-card">
-          <img src={MemeShare} alt="Meme Share" width="450px" height="300px"/>
+            <img className="project-image" src={MemeShare} alt="Meme Share" />
          </div>
         </div>
 
-        <div className="column">
+        <div className="project-row">
           <div className="project-card">
-          <img src={PlanetWarrior2} alt="Meme Share" width="450px" height="300px"/>
+            <img className="project-image" src={PlanetWarrior2} alt="Meme Share" />
          </div>
         </div>
 
