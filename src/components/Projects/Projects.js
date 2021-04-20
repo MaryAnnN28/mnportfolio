@@ -1,6 +1,6 @@
 import NavCRM from '../../images/navcrm.jpeg'; 
 import PlanetWarrior from '../../images/PlanetWarrior1.png'; 
-import PlanetWarrior2 from '../../images/planetwarrior.png'; 
+// import PlanetWarrior2 from '../../images/planetwarrior.png'; 
 import BiteBoard from '../../images/biteboard.jpeg'; 
 import GolfLive from '../../images/golflive.jpeg'; 
 import MemeShare from '../../images/memeshare.jpeg'; 
@@ -24,7 +24,10 @@ const Projects = () => {
         
    
       
-      <div className="project-container">
+        <div className="project-container">
+          <div className="projects-header">
+            <h2 className="projects-header-h2">Featured Projects</h2>
+          </div>
         
         <div className="project-row">
           <div className="project-card">
