@@ -9,7 +9,6 @@ import { IconContext } from 'react-icons';
 import { FiGithub, FiVideo } from 'react-icons/fi';
 
 
-
 const Projects = () => {
   return (
     <div
@@ -22,8 +21,6 @@ const Projects = () => {
     >
       <IconContext.Provider value={{ color: '#efefef' }}>
         
-   
-      
         <div className="project-container">
           <div className="projects-header">
             <h2 className="projects-header-h2">Featured Projects</h2>
@@ -52,7 +49,6 @@ const Projects = () => {
           </div>
         </div>
           
-
 
         <div className="project-row">
           <div className="project-card-right">
@@ -148,17 +144,10 @@ const Projects = () => {
           </div>
         </div>
 
-  
 
-
-      </div> 
-
-     
-
-
+      </div>
 
       </IconContext.Provider>
-
     </div>
   )
 }
