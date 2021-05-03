@@ -24,7 +24,7 @@
 
 h1.main-h1 {
   font-size: 40pt; 
-  color: rgb(212, 91, 109); 
+  color: rgb(62, 133, 143); 
   padding-left: 150px; 
   padding-top: 30px;
   padding-right: 0px;
@@ -66,3 +66,20 @@ div.scroll-icon {
   line-height: .2em;
 }
 
+.circle {
+  width: 200px; 
+  height: 200px;
+  border-style: solid; 
+  border-width: 1pt;
+  border-color: rgb(36, 110, 133);
+}
+
+.circle2 {
+  margin-top: -100px;
+  margin-left: -90px;
+  width: 200px; 
+  height: 200px;
+  border-style: solid; 
+  border-width: 1pt;
+  border-color: rgb(123, 187, 199);
+}

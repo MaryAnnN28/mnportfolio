@@ -33,7 +33,7 @@ const Projects = () => {
             <h2 className="projects-header-h2">Featured Projects</h2>
           </div>
         
-        <div className="project-row">
+        <div data-aos="fade-right" className="project-row">
           <div className="project-card">
             <img className="project-image" src={NavCRM} alt="NavCRM Dashboard" />
           </div>
@@ -58,7 +58,7 @@ const Projects = () => {
          
      
 
-        <div className="project-row">
+        <div data-aos="fade-left" className="project-row">
           <div className="project-card-right">
             <img className="project-image" src={PlanetWarrior} alt="Planet Warrior App" />
           </div>
@@ -82,7 +82,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="project-row">
+        <div data-aos="fade-right" className="project-row">
           <div className="project-card">
             <img className="project-image" src={BiteBoard} alt="Bite Board Recipe Site"/>
             </div>
@@ -105,7 +105,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="project-row">
+        <div data-aos="fade-left" className="project-row">
          <div className="project-card-right">
           <img className="project-image" src={GolfLive} alt="Golf Live"/>
             </div>
@@ -129,7 +129,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="project-row">
+        <div data-aos="fade-right" className="project-row">
           <div className="project-card">
             <img className="project-image" src={MemeShare} alt="Meme Share" />
             </div>

@@ -4,8 +4,10 @@ import { IconContext } from 'react-icons';
 import { BsChevronCompactDown } from 'react-icons/bs'; 
 
 const Header = () => {
+
+ 
   return (
-    <IconContext.Provider value={{color: 'rgb(212, 91, 109)'}}>
+    <IconContext.Provider value={{color: 'rgb(123, 187, 199)'}}>
     <div
       style={{
         display: 'flex',
@@ -30,7 +32,8 @@ const Header = () => {
         </div>
 
         <div className="header-container-right">
-        
+            <div className="circle"></div>
+            <div className="circle2"></div>
        
         </div>
             
