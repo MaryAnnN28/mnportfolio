@@ -1,15 +1,22 @@
+import React, { useEffect } from 'react';
 import NavCRM from '../../images/navcrm.jpeg'; 
 import PlanetWarrior from '../../images/PlanetWarrior1.png'; 
-// import PlanetWarrior2 from '../../images/planetwarrior.png'; 
 import BiteBoard from '../../images/biteboard.jpeg'; 
 import GolfLive from '../../images/golflive.jpeg'; 
 import MemeShare from '../../images/memeshare.jpeg'; 
 import './Projects.css';
 import { IconContext } from 'react-icons';
 import { FiGithub, FiVideo } from 'react-icons/fi';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 
 const Projects = () => {
+  
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <div
       style={{
@@ -21,7 +28,7 @@ const Projects = () => {
     >
       <IconContext.Provider value={{ color: '#efefef' }}>
         
-        <div className="project-container">
+        <div className="grids">
           <div className="projects-header">
             <h2 className="projects-header-h2">Featured Projects</h2>
           </div>
@@ -47,8 +54,9 @@ const Projects = () => {
                 </div>
             </div>
           </div>
-        </div>
-          
+          </div>
+         
+     
 
         <div className="project-row">
           <div className="project-card-right">

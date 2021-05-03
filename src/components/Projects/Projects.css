@@ -6,17 +6,18 @@
   padding: 1rem; 
 } */
 
+.grids {
+  max-width: 80%; 
+  margin: auto; 
+}
 
 .project-card {
-  border-radius: 0.2rem;
   position: relative; 
   width: 520px;
   float: left;
 }
 
-hr {
-  color:rgb(75, 219, 164);
-}
+
 
 .project-card-right {
   float: right; 
@@ -28,7 +29,7 @@ img.project-image {
   display: flex;
   width: 520px; 
   height: 350px;
-  margin-bottom: 120px; 
+  margin-bottom: 140px; 
 }
 
 .project-details {

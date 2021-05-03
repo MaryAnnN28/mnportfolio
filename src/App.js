@@ -7,7 +7,10 @@ import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
 
 
+
 function App() {
+
+
   return (
     <>
     <div className="Home">
@@ -15,9 +18,7 @@ function App() {
           
           <NavBar />
 
-          <Switch>
-            <Route exact path="/" component={App} />
-          </Switch>
+      
             
             <Header />
             <About />
