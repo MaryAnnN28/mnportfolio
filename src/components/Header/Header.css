@@ -24,7 +24,7 @@
 
 h1.main-h1 {
   font-size: 40pt; 
-  color: #797294; 
+  color: #c1c3c9; 
   padding-left: 150px; 
   padding-top: 30px;
   padding-right: 0px;
@@ -37,7 +37,7 @@ h3.header-firstname-h3 {
   padding-left: 150px;
   padding-top: 50px; 
   font-size: 22pt;
-  color:rgb(57, 172, 180); 
+  color:#F2C185; 
   letter-spacing: 10px;
 }
 
@@ -46,7 +46,7 @@ h4.header-title-h4 {
   padding-left: 150px;
   padding-top: 10px; 
   font-size: 18pt;
-  color: rgb(161, 163, 172); 
+  color: #51566A; 
   letter-spacing: 10px;
 }
 
