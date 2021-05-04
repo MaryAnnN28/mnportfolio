@@ -8,7 +8,7 @@ import { FaLinkedinIn, FaGithub, FaMediumM, FaTwitter } from 'react-icons/fa';
 class NavBar extends Component {
   render() {
     return (
-      <IconContext.Provider value={{color: 'rgb(123, 187, 199)'}}>
+      <IconContext.Provider value={{color: '#768eb1'}}>
 
       <div className="navbar">
         <div className="navbar-left">

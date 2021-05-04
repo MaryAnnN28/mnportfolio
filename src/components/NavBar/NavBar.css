@@ -22,34 +22,39 @@
 
 .navbar-center {
   float: right;
-  width: 33%; 
+  width: 37%; 
   justify-content: left;
   text-align: left;
+  padding-left: 30px;
 }
 
 .navbar-right {
   float: right;
-  width: 33%; 
+  width: 30%; 
   justify-content: right;
   text-align: right;
-  padding-right: 100px; 
+  padding-right: 60px; 
   margin: 1em; 
-}
-
-.navbar a {
-  text-decoration: none;
-  padding: 1.4rem; 
-  color: #f7f7f7;
-  font-size: 11pt;
 }
 
 .navbar-right a {
   text-decoration: none;
   padding: 0.7rem; 
   color: #f7f7f7;
-  font-size: 11pt;
+  font-size: 10pt;
 }
 
-.navbar a:hover {
-  color: #768eb1;
+.navbar a {
+  text-decoration: none;
+  padding: 1.4rem; 
+  color: #f7f7f7;
+  font-size: 10pt;
+  position: relative; 
 }
+
+
+.navbar a:hover {
+  color: #8197b9;
+  text-decoration: unset;
+}
+

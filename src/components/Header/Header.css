@@ -24,7 +24,7 @@
 
 h1.main-h1 {
   font-size: 40pt; 
-  color: rgb(62, 133, 143); 
+  color: #797294; 
   padding-left: 150px; 
   padding-top: 30px;
   padding-right: 0px;
@@ -37,7 +37,7 @@ h3.header-firstname-h3 {
   padding-left: 150px;
   padding-top: 50px; 
   font-size: 22pt;
-  color:rgb(240, 236, 233); 
+  color:rgb(57, 172, 180); 
   letter-spacing: 10px;
 }
 
@@ -81,5 +81,5 @@ div.scroll-icon {
   height: 200px;
   border-style: solid; 
   border-width: 1pt;
-  border-color: rgb(123, 187, 199);
+  border-color: #585F73;
 }

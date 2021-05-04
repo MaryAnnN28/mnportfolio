@@ -18,8 +18,6 @@ function App() {
           
           <NavBar />
 
-      
-            
             <Header />
             <About />
             <Projects />
