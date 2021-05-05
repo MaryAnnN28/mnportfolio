@@ -5,6 +5,7 @@ import { FaLinkedinIn, FaGithub, FaMediumM, FaTwitter } from 'react-icons/fa';
 import { GrLinkTop } from 'react-icons/gr';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
+
 const SocialBar = () => {
   return (
     <>
@@ -27,9 +28,9 @@ const SocialBar = () => {
 
         <div className="back-to-top">
           <AnchorLink href='home'>
-            <GrLinkTop size={30}/>
+            <GrLinkTop size={30} />
           </AnchorLink>
-          {/* <section id='home'><App /></section> */}
+
 
         </div>
         </IconContext.Provider>

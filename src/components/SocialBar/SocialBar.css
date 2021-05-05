@@ -2,9 +2,6 @@
   position: fixed; 
   top: 500px; 
   right: 15px;
-  /* -webkit-transform: translateX(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%); */
 }
 
 .icon-bar a {
@@ -23,4 +20,12 @@
 
 .back-to-top {
   position: fixed;
+  top: 560px;
+  right: 100px; 
+  color: #efefef;
+}
+
+.back-to-top a {
+  right: 100px; 
+  color: #efefef;
 }
