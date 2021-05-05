@@ -58,11 +58,3 @@ h4.header-title2-h4 {
   color:rgb(161, 163, 172); 
   letter-spacing: 10px;
 }
-
-div.scroll-icon {
-  margin-left: 50%; 
-  margin-top: 32%; 
-  position: relative; 
-  display: block;
-  line-height: .2em;
-}

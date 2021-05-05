@@ -17,15 +17,3 @@
 .icon-bar a:hover {
   color: rgb(123, 187, 199);
 }
-
-.back-to-top {
-  position: fixed;
-  top: 730px;
-  right: 100px; 
-  color: #efefef;
-}
-
-.back-to-top a {
-  right: 100px; 
-  color: #efefef;
-}

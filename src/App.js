@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import './App.css';
 // import NavBar from './components/NavBar/NavBar'; 
 import Header from './components/Header/Header';
@@ -8,13 +9,16 @@ import SocialBar from './components/SocialBar/SocialBar'
 import './components/NavBar/NavBar.css';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Logo from './images/MN1.png';
-import ScrollToTop from './components/ScrollToTop';
 import {BrowserRouter as Router } from 'react-router-dom'
-
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 
 function App() {
 
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  });
 
   return (
     <>
@@ -23,7 +27,7 @@ function App() {
         <div className="Home">
         <div className="navbar">
           <div className="navbar-left">
-            <img className="logo" src={Logo} alt="logo" width="130px"/> 
+            <img data-aos="fade-down" className="logo" src={Logo} alt="logo" width="130px"/> 
             </div>
               <div className="navbar-right">
                 <AnchorLink href='#header'>HOME</AnchorLink>
@@ -34,8 +38,7 @@ function App() {
               </div>
           </div>
   
-      
-            <ScrollToTop />
+    
             {/* <NavBar /> */}
             <SocialBar />
             <section id='header'><Header /></section>

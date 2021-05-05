@@ -1,11 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Header.css';
 import { IconContext } from 'react-icons'; 
 import { BsChevronCompactDown } from 'react-icons/bs';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 
 const Header = () => {
 
+  useEffect(() => {
+    Aos.init({ duration: 4000 });
+  });
  
   return (
     <IconContext.Provider value={{color: 'rgb(123, 187, 199)'}}>
@@ -20,14 +25,12 @@ const Header = () => {
         <div className="header-container-left">
           <div className="main-header">
   
-            <h1 className="main-h1">
+            <h1 className="main-h1" data-aos="fade-right">
               Building Enhanced
               Digital Experiences
             </h1>
-            <h3 className="header-firstname-h3"> Meet MaryAnn</h3>
-            {/* <h4 className="header-title-h4"> software engineer</h4>
-            //<h4 className="header-title2-h4"> web designer</h4> */}
-       
+            <h3 className="header-firstname-h3" data-aos="fade-up"> Meet MaryAnn</h3>
+            
             
           </div>
         </div>
@@ -38,9 +41,7 @@ const Header = () => {
        
         </div>
             
-          <div className="scroll-icon">
-            <BsChevronCompactDown size={45} /><br/>
-          </div>
+  
 
       </div>
 

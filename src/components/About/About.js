@@ -49,7 +49,7 @@ const About = () => {
             <span className="label-skill">Ruby on Rails</span>
             <span className="label-skill">HTML</span>
             <span className="label-skill">CSS</span>
-            <br />
+            <br /><br />
             <span className="label-skill">PostgreSQL</span>
             <span className="label-skill">Bootstrap</span>
             <span className="label-skill">Material UI</span>
