@@ -12,6 +12,7 @@ import Logo from './images/MN1.png';
 import {BrowserRouter as Router } from 'react-router-dom'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import ScrollTopArrow from './components/ScrollTopArrow'
 
 
 function App() {
@@ -40,7 +41,8 @@ function App() {
   
     
             {/* <NavBar /> */}
-            <SocialBar />
+          <SocialBar />
+          <ScrollTopArrow />
             <section id='header'><Header /></section>
             <section id='about'><About/></section>
             <section id='projects'><Projects/></section>

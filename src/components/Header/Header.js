@@ -36,7 +36,7 @@ const Header = () => {
 
         <div className="header-container-right">
           
-            {/* INSERT CONTENT FOR RIGHT COLUMN HERE  */}
+         
        
         </div>
             

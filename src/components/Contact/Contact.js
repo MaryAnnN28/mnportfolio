@@ -19,7 +19,7 @@ const Contact = () => {
       display: 'flex',
       justifyContent: 'center',
       // alignItems: 'center',
-      height: '90vh'
+      height: '100vh'
     }}
     >
       <IconContext.Provider value={{color: '#efefef'}}>
