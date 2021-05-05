@@ -1,7 +1,8 @@
 import React from 'react'
 import './Header.css';
 import { IconContext } from 'react-icons'; 
-import { BsChevronCompactDown } from 'react-icons/bs'; 
+import { BsChevronCompactDown } from 'react-icons/bs';
+
 
 const Header = () => {
 

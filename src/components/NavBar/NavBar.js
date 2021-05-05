@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import './NavBar.css'; 
 import Logo from '../../images/MN1.png';
 
@@ -14,14 +13,14 @@ class NavBar extends Component {
           <img src={Logo} alt="logo" width="130px"/> 
         </div>
 
-        <div className="navbar-right">
+        {/* <div className="navbar-right">
           <Link to='/'>HOME</Link>
           <Link to='/about'>ABOUT</Link>
           <Link to='/projects'>PROJECTS</Link>
           <Link to='https://maryann-navarrete.medium.com/'>BLOG</Link>
           <Link to='/contact'>CONTACT</Link>
          
-        </div>
+        </div> */}
 
 
       </div>

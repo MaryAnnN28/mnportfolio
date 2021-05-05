@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo:500|Open+Sans:300,700" rel="stylesheet');
+
 .contact-header {
-  color: #efefef;
+  display: block;
+  color: #555C73;
+  margin-bottom: 30px;
+  font-size: 50pt;
+  letter-spacing: 13px;
+  margin-top: 100px;
 }
+
+.contact-info {
+  display: block;
+  position: relative;
+  color: #555C73;
+  font-size: 30pt;
+  letter-spacing: 13px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.contact-info a {
+  padding: 15px;
+}
+

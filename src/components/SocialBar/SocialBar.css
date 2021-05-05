@@ -1,6 +1,6 @@
 .icon-bar {
   position: fixed; 
-  top: 550px; 
+  top: 500px; 
   right: 15px;
   /* -webkit-transform: translateX(-50%);
   -ms-transform: translateY(-50%);
@@ -19,4 +19,8 @@
 
 .icon-bar a:hover {
   color: rgb(123, 187, 199);
+}
+
+.back-to-top {
+  position: fixed;
 }
