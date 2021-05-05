@@ -1,4 +1,5 @@
 import React from 'react'
+import './Contact.css'
 
 
 const Contact = () => {
@@ -11,9 +12,8 @@ const Contact = () => {
       height: '90vh'
     }}
   >
-      <h1>Contact</h1><br />
+      <h1 className="contact-header">Contact</h1><br />
  
-    
   </div>
   )
 }

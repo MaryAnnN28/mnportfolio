@@ -32,9 +32,19 @@ const About = () => {
         </div>
 
         <div className="about-container-right">
-          <img className="pic" src={Pic} height="400px" alt="headshot"/>
-          
+          <img className="pic" src={Pic} height="300px" alt="headshot"/>
+          <br />
+          <div>
+            <span className="label-skill">JavaScript</span>
+            <span className="label-skill">React</span>
+            <span className="label-skill">Ruby</span>
+            <span className="label-skill">Ruby on Rails</span>
+            <span className="label-skill">HTML</span>
+            <span className="label-skill">CSS</span>
+            <span className="label-skill">PostgreSQL</span>
+          </div>
         </div>
+
 
       </div>
 

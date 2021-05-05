@@ -29,7 +29,7 @@
 }
 
 h1.about-header {
-  color:  rgb(36, 110, 133); 
+  color:  rgb(123, 187, 199); 
 }
 
 p.about-text {
@@ -45,5 +45,16 @@ p.about-text {
 img.pic {
   margin-left: 100px; 
   margin-top: 40px;
-  border-radius: 50%;
+  margin-bottom: 40px;
+  border-radius: 40%;
+}
+
+.label-skill {
+  color: white;
+  padding: 6px;
+  background-color: #202e40be;
+  height: 8px;
+  margin-top: 40px;
+  margin-left: 15px; 
+  font-size: 8.7pt;
 }

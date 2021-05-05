@@ -74,7 +74,7 @@ h3.project-title-planet {
 }
 
 .description-container {
-  background:rgba(176, 182, 230, 0.267); 
+  background:rgba(176, 182, 230, 0.190); 
   width: 350px;
   height: 130px;
   margin-left: 10px;
@@ -82,7 +82,7 @@ h3.project-title-planet {
 }
 
 .description-container-left {
-  background:rgba(176, 182, 230, 0.267); 
+  background:rgba(176, 182, 230, 0.190); 
   width: 350px;
   height: 120px;
   margin-right: 10px;
@@ -90,7 +90,7 @@ h3.project-title-planet {
 }
 
 .description-container-planet {
-  background:rgba(176, 182, 230, 0.267); 
+  background:rgba(176, 182, 230, 0.190); 
   width: 350px;
   height: 150px;
   margin-right: 10px;

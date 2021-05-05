@@ -32,8 +32,8 @@ const Header = () => {
         </div>
 
         <div className="header-container-right">
-            <div className="circle"></div>
-            <div className="circle2"></div>
+          
+            {/* INSERT CONTENT FOR RIGHT COLUMN HERE  */}
        
         </div>
             

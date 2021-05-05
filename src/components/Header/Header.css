@@ -24,7 +24,8 @@
 
 h1.main-h1 {
   font-size: 40pt; 
-  color: #c1c3c9; 
+  /* color: #d0d4d4;  */
+  color: #efefef;
   padding-left: 150px; 
   padding-top: 30px;
   padding-right: 0px;
@@ -37,7 +38,7 @@ h3.header-firstname-h3 {
   padding-left: 150px;
   padding-top: 50px; 
   font-size: 22pt;
-  color:#F2C185; 
+  color:rgb(123, 187, 199); 
   letter-spacing: 10px;
 }
 
@@ -64,22 +65,4 @@ div.scroll-icon {
   position: relative; 
   display: block;
   line-height: .2em;
-}
-
-.circle {
-  width: 200px; 
-  height: 200px;
-  border-style: solid; 
-  border-width: 1pt;
-  border-color: rgb(36, 110, 133);
-}
-
-.circle2 {
-  margin-top: -100px;
-  margin-left: -90px;
-  width: 200px; 
-  height: 200px;
-  border-style: solid; 
-  border-width: 1pt;
-  border-color: #585F73;
 }
