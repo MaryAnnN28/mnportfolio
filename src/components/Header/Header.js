@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import './Header.css';
 import { IconContext } from 'react-icons'; 
-import { BsChevronCompactDown } from 'react-icons/bs';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 

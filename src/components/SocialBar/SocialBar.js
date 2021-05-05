@@ -2,7 +2,6 @@ import React from 'react'
 import './SocialBar.css'
 import { IconContext } from 'react-icons';
 import { FaLinkedinIn, FaGithub, FaMediumM, FaTwitter } from 'react-icons/fa';
-import { GrLinkTop } from 'react-icons/gr';
 
 
 
