@@ -1,18 +1,22 @@
 .icon-bar {
   position: fixed; 
-  top: 75%; 
-  -webkit-transform: translateY(-50%);
+  top: 550px; 
+  right: 15px;
+  /* -webkit-transform: translateX(-50%);
   -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  float: right;
+  transform: translateY(-50%); */
 }
 
 .icon-bar a {
   display: block;
   text-align: center;
-  padding: 16px;
+  padding: 10px;
   transition: all 0.3s ease;
-  color: white;
-   background:rgba(163, 168, 204, 0.19); 
+  color: #f7f7f7;
+  background:#30384e69; 
   font-size: 20px;
+}
+
+.icon-bar a:hover {
+  color: rgb(123, 187, 199);
 }

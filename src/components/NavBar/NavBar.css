@@ -20,15 +20,13 @@
   padding-top: 20px; 
 }
 
-.navbar-center {
+.navbar-right {
   float: right;
-  width: 60%; 
+  width: 70%; 
   justify-content: left;
   text-align: left;
-  padding-left: 30px;
+  padding-left: 300px;
 }
-
-
 
 
 .navbar a {
@@ -41,7 +39,7 @@
 
 
 .navbar a:hover {
-  color: #8197b9;
+  color: rgb(123, 187, 199);
   text-decoration: unset;
 }
 

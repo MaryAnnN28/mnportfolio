@@ -14,7 +14,7 @@ class NavBar extends Component {
           <img src={Logo} alt="logo" width="130px"/> 
         </div>
 
-        <div className="navbar-center">
+        <div className="navbar-right">
           <Link to='/'>HOME</Link>
           <Link to='/about'>ABOUT</Link>
           <Link to='/projects'>PROJECTS</Link>
