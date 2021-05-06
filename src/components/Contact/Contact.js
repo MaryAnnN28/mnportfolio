@@ -27,8 +27,8 @@ const Contact = () => {
       <div className="contact-page">
         <h1 className="contact-header" data-aos="fade-down">Get In Touch</h1>
           <p className="contact-info" data-aos="fade-up">
-            <a href="mailto:maryann.navarrete@gmail.com" target="_blank" rel="noreferrer"><AiOutlineMail size={60}/></a>
-            <a href="https://www.linkedin.com/in/maryannnavarrete/" target="_blank" rel="noreferrer"><FaLinkedinIn size={60} /></a>
+            <a href="mailto:maryann.navarrete@gmail.com" target="_blank" rel="noreferrer"><AiOutlineMail size={50}/></a>
+            <a href="https://www.linkedin.com/in/maryannnavarrete/" target="_blank" rel="noreferrer"><FaLinkedinIn size={50} /></a>
           </p>
           <div className="contact-form">
             <form>
