@@ -30,7 +30,7 @@ const Projects = () => {
         
         <div className="grids">
           <div className="projects-header">
-            <h2 className="projects-header-h2">Featured Projects</h2>
+            <h2 data-aos="fade-down" className="projects-header-h2">Featured Projects</h2>
           </div>
         
           <div data-aos="fade-right" className="project-row">
@@ -65,6 +65,7 @@ const Projects = () => {
               
               <div className="project-card-right">
                 <img className="project-image" src={PlanetWarrior} alt="Planet Warrior App" />
+              <div class="ribbon ribbon-top-right"><span>Winner</span></div>
               </div>
               <div className="project-details-left">
                 <h3 className="project-title-planet">Planet Warrior</h3>
