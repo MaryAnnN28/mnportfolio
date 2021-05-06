@@ -35,6 +35,9 @@ const About = () => {
             <p data-aos="fade-right" className="about-text">
             Part problem-solver that loves data-driven analysis, part design maven with an eye for styling, I get to enjoy the best of both worlds tapping into both my passions as a full stack developer. 
             </p>
+            <p data-aos="fade-right" className="about-text">
+            In my free time, I enjoy reading, watching NBA/Sixers games, playing golf, traveling and playing with my dog Toby! 
+            </p>
           </div>
         </div>
 
@@ -46,11 +49,13 @@ const About = () => {
             <span className="label-skill">JavaScript</span>
             <span className="label-skill">React</span>
             <span className="label-skill">Ruby</span>
-            <span className="label-skill">Ruby on Rails</span>
+              <span className="label-skill">Ruby on Rails</span>
+            <br /><br />
+              
             <span className="label-skill">HTML</span>
             <span className="label-skill">CSS</span>
-            <br /><br />
             <span className="label-skill">PostgreSQL</span>
+            <br /><br />
             <span className="label-skill">Bootstrap</span>
             <span className="label-skill">Material UI</span>
             <span className="label-skill">Adobe XD</span>
