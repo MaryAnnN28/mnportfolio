@@ -34,7 +34,7 @@ function App() {
                 <AnchorLink href='#header'>HOME</AnchorLink>
                 <AnchorLink href='#about'>ABOUT</AnchorLink>
                 <AnchorLink href='#projects'>PROJECTS</AnchorLink>
-                <AnchorLink href='#header'>BLOG</AnchorLink>
+                <a href='https://maryann-navarrete.medium.com/' target="_blank" rel="noreferrer">BLOG</a>
                 <AnchorLink href='#contact'>CONTACT</AnchorLink>
               </div>
           </div>
