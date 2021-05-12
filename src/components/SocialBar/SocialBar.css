@@ -1,7 +1,7 @@
 .icon-bar {
   position: fixed; 
   top: 500px; 
-  right: 15px;
+  left: 15px;
 }
 
 .icon-bar a {
@@ -10,10 +10,29 @@
   padding: 10px;
   transition: all 0.3s ease;
   color: #f7f7f7;
-  background:#30384e69; 
+  background:#0d161f4f; 
   font-size: 20px;
 }
 
 .icon-bar a:hover {
   color: rgb(123, 187, 199);
+}
+
+@media screen and (max-width: 768px) {
+  .icon-bar {
+    position: fixed; 
+    top: 500px; 
+    left: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .icon-bar a {
+    text-align: center;
+    padding: 10px;
+    transition: all 0.3s ease;
+    color: #f7f7f7;
+    background:#0d161f4f; 
+    font-size: 20px;
+  }
 }

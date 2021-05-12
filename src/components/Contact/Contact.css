@@ -6,7 +6,8 @@
   margin-bottom: 30px;
   font-size: 50pt;
   letter-spacing: 13px;
-  margin-top: 180px;
+  margin-top: 300px;
+  justify-content: center; 
 }
 
 .contact-info {
@@ -23,3 +24,9 @@
   padding: 15px;
 }
 
+@media screen and (max-width: 768px) {
+ .contact-header {
+   font-size: 26pt; 
+ } 
+
+}

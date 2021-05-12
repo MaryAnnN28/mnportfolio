@@ -28,7 +28,7 @@ const Header = () => {
               Building Enhanced
               Digital Experiences
             </h1>
-            <h3 className="header-firstname-h3" data-aos="fade-up"> Meet MaryAnn</h3>
+            <h3 className="header-firstname" data-aos="fade-up"> Meet MaryAnn</h3>
             
             
           </div>

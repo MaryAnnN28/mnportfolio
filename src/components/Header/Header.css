@@ -34,7 +34,7 @@ h1.main-h1 {
 }
 
 
-h3.header-firstname-h3 {
+h3.header-firstname {
   padding-left: 150px;
   padding-top: 50px; 
   font-size: 22pt;
@@ -43,19 +43,15 @@ h3.header-firstname-h3 {
 }
 
 
-h4.header-title-h4 {
-  padding-left: 150px;
-  padding-top: 10px; 
-  font-size: 18pt;
-  color: #51566A; 
-  letter-spacing: 10px;
+@media screen and (max-width: 768px) {
+  h1.main-h1 {
+    font-size: 26pt;
+  }
 }
 
-h4.header-title2-h4 {
-  padding-left: 150px;
-  margin-top: -10px; 
-  font-size: 18pt;
-  color:rgb(161, 163, 172); 
-  letter-spacing: 10px;
-}
 
+@media screen and (max-width: 768px) {
+  h3.header-firstname {
+    font-size: 16pt;
+  }
+}

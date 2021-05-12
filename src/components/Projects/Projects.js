@@ -33,10 +33,10 @@ const Projects = () => {
             <h2 data-aos="fade-down" className="projects-header-h2">Featured Projects</h2>
           </div>
         
-          <div data-aos="fade-right" className="project-row">
+          <div data-aos="fade-up" className="project-row">
             <div className="box">
               <div className="project-card">
-                <img className="project-image" src={NavCRM} alt="NavCRM Dashboard" />
+                <img className="project-image" src={NavCRM} alt="NavCRM Dashboard" width="520px" height="350px"/>
               </div>
               <div className="project-details">
                 <h3 className="project-title">NavCRM</h3>
@@ -60,7 +60,7 @@ const Projects = () => {
          
      
 
-        <div data-aos="fade-left" className="project-row">
+        <div data-aos="fade-up" className="project-row">
           <div className="box">
               
               <div className="project-card-right">
@@ -88,7 +88,7 @@ const Projects = () => {
           </div>  
         </div>
 
-          <div data-aos="fade-right" className="project-row">
+          <div data-aos="fade-up" className="project-row">
             <div className="box">
               <div className="project-card">
                 <img className="project-image" src={BiteBoard} alt="Bite Board Recipe Site"/>
@@ -114,7 +114,7 @@ const Projects = () => {
             </div>
         </div>
 
-          <div data-aos="fade-left" className="project-row">
+          <div data-aos="fade-up" className="project-row">
             <div className="box">
               <div className="project-card-right">
                 <img className="project-image" src={GolfLive} alt="Golf Live"/>
@@ -141,7 +141,7 @@ const Projects = () => {
             </div>
         </div>
 
-          <div data-aos="fade-right" className="project-row">
+          <div data-aos="fade-up" className="project-row">
             <div className="box">
                 <div className="project-card">
                   <img className="project-image" src={MemeShare} alt="Meme Share" />
