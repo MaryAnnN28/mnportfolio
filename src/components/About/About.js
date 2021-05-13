@@ -25,8 +25,8 @@ const About = ({ imgStart }) => {
             flexDirection: imgStart === 'start' ? 'row-reverse' : 'row'
           }}>
         
-          {/* <div className="about-container-left"> */}
-        <div className="col">
+          <div className="about-container-left">
+        {/* <div className="col"> */}
           <div className="about_content-text-wrapper">
             <h1 data-aos="fade-up" className="about-header">
               About
@@ -47,8 +47,8 @@ const About = ({ imgStart }) => {
           </div>
         </div>
 
-        {/* <div className="about-container-right"> */}
-        <div className="col">
+        <div className="about-container-right">
+        {/* <div className="col"> */}
           <div className="about_profile-img-wrapper">
             <img data-aos="fade-up" className="about_profile-img" src={Pic} height="300px" alt="headshot"/>
             <br />

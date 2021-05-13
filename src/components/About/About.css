@@ -34,7 +34,10 @@
   max-width: 540px;
   padding-top: 0; 
   padding-bottom: 60px; 
-  margin-left: 100px;
+  padding-left: 100px;
+  /* margin-left: 100px; */
+  margin-left: auto; 
+  margin-right: auto; 
 }
 
 .about-container-left {
@@ -55,10 +58,7 @@
   align-content: center;
 }
 
-.about-content {
-  padding-left: 200px; 
-  width: 650px; 
-}
+
 
 h1.about-header {
   color:  rgb(123, 187, 199); 
@@ -75,32 +75,27 @@ p.about-text {
 }
 
 .about_profile-img {
-  max-width: 95%;
-  margin-top: 0; 
-  margin-right: 0;
-  margin-left: 60px; 
+  margin-top: 10%; 
+  display: flex; 
   margin-bottom: 30px;
   padding-right: 0;
   border-radius: 3%;
+  margin-left: auto; 
+  margin-right: auto; 
 }
 
 .about_profile-img-wrapper {
   max-width: 555px;
-  margin-left: 60px;
+  margin-left: auto; 
+  margin-right: auto; 
 }
 
-
-img.pic {
-  margin-left: 130px; 
-  max-width: 100%;
-  /* vertical-align: middle; */
-  display: inline-block;
-  margin-top: 50px;
-}
 
 .skills {
   width: 65%; 
-  margin-left: 30px;
+  /* margin-left: 30px; */
+  margin-left: auto; 
+  margin-right: auto; 
 }
 
 .label-skill {
@@ -120,10 +115,18 @@ img.pic {
 @media screen and (max-width: 960px) {
   .about_content-text-wrapper {
     padding-bottom: 40px;
+    margin-left: auto; 
+    margin-right: auto; 
+  }
+  
+  .about_profile-img-wrapper {
+    margin-bottom: 40px;
+    margin-top: 260px;
+    grid-template-columns: 100%;
   }
 
   p.about-text {
-    font-size: 9pt; 
+    font-size: 9.2pt; 
     font-weight: lighter; 
     width: 390px; 
   }
@@ -133,6 +136,7 @@ img.pic {
      flex-direction: column;
      margin-left: auto;
      margin-right: auto; 
+     margin-top: auto; 
    }
   
    .skills {
@@ -141,11 +145,23 @@ img.pic {
      flex-direction: column;
      margin-left: auto;
      margin-right: auto; 
+     margin-bottom: 100px; 
    }
 
-  .col {
+  .about-container-right {
+    display: block; 
+    flex-direction: column;
     max-width: 100%; 
     flex-basis: 100%;
+    grid-template-columns: 100%;
+  }
+
+  .about-container-left {
+    display: block; 
+    flex-direction: column;
+    max-width: 100%; 
+    flex-basis: 100%;
+    grid-template-columns: 100%;
   }
 
 }
