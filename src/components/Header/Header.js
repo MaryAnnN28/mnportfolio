@@ -16,7 +16,7 @@ const Header = () => {
     <div
       style={{
         display: 'flex',
-        height: '110vh'
+        height: '90vh'
       }}
     >
       <div className="header-container">

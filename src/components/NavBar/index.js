@@ -57,7 +57,7 @@ const Navbar = () => {
             </AnchorLink>
 
             <li className="nav-item">
-              <Link to='https://maryann-navarrete.medium.com/' className="nav-links" onClick={closeMobileMenu}>Blog</Link>
+              <a href='https://maryann-navarrete.medium.com/' className="nav-links" onClick={closeMobileMenu} target='_blank'>Blog</a>
             </li>
 
             <AnchorLink href='#contact'>

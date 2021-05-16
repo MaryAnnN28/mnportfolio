@@ -13,7 +13,7 @@
 }
 
 .row {
-  display: flex; 
+  /* display: flex;  */
   margin-right: -15px; 
   margin-bottom: -15px; 
   margin-left: -15px; 
@@ -35,7 +35,7 @@
   padding-top: 0; 
   padding-bottom: 60px; 
   padding-left: 100px;
-  /* margin-left: 100px; */
+  margin-top: auto; 
   margin-left: auto; 
   margin-right: auto; 
 }
@@ -83,6 +83,7 @@ p.about-text {
   margin-left: auto; 
   margin-right: auto; 
 }
+
 
 .about_profile-img-wrapper {
   max-width: 555px;
