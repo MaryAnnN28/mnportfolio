@@ -18,7 +18,7 @@ const Contact = () => {
     style={{
       display: 'flex',
       justifyContent: 'center',
-      // alignItems: 'center',
+      alignItems: 'center',
       height: '100vh'
     }}
     >
