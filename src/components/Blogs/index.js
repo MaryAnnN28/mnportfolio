@@ -17,7 +17,7 @@ const Blogs = () => {
 	console.log(blogs)
 
 	return (
-		<Container maxWidth="lg">
+		<Container maxWidth="md">
 			<Grid container sx={{ px: 5 }}>
 				<Grid item sx={{ px: 20 }}>
 					<Grid item sx={{ mb: 4 }}>
@@ -30,11 +30,11 @@ const Blogs = () => {
 									<Card sx={{}}>
 										<CardMedia component="img" height="160" image={blog.thumbnail} alt={blog.title} />
 
-										<CardHeader>
-											<Typography gutterBottom variant="h5" component="div" color="black">
+										<CardContent>
+											<Typography gutterBottom variant="caption" component="div" color="black" sx={{ lineHeight: '18px' }}>
 												{blog.title}
 											</Typography>
-										</CardHeader>
+										</CardContent>
 										<CardActionArea>
 											<Button href={blog.link}>Read More</Button>
 										</CardActionArea>

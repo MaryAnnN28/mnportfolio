@@ -27,6 +27,7 @@ const Navbar = () => {
 					<div className="navbar-container container">
 						<Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
 							<img src={Logo} alt="logo" width="100px" />
+							Mary Ann
 						</Link>
 						<div className="menu-icon" onClick={handleClick}>
 							{click ? <FaTimes /> : <FaBars />}

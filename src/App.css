@@ -8,12 +8,15 @@
 }
 
 body {
-	/* height: 300px;  */
+	height: 100vh;
 	height: max-content;
-	background: #041024;
+	background: #05092b;
+	background: -webkit-linear-gradient(to top left, #05092b 0%, #020203 100%);
+	background: -moz-linear-gradient(to top left, #05092b 0%, #020203 100%);
+	background: linear-gradient(to top left, #05092b 0%, #020203 100%);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background: linear-gradient(155deg, #041024 3%, #192541 22%, #2e374d 40%, #505974 62%, #5d6681 78%, #717a94 100%);
+	/* background: linear-gradient(155deg, #041024 3%, #192541 22%, #2e374d 40%, #505974 62%, #5d6681 78%, #717a94 100%); */
 }
 
 html {

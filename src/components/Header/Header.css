@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Plaster&display=swap');
+
 .header-container {
 	content: '';
 	display: table;
@@ -25,7 +27,7 @@
 h1.main-h1 {
 	font-size: 38pt;
 	font-weight: 400;
-	color: #efefef;
+	color: #fd715e;
 	padding-left: 150px;
 	padding-top: 30px;
 	padding-right: 0px;
@@ -38,7 +40,7 @@ h3.header-firstname {
 	padding-left: 150px;
 	padding-top: 50px;
 	font-size: 22pt;
-	color: rgb(123, 187, 199);
+	color: rgb(197, 197, 197);
 	letter-spacing: 10px;
 }
 
